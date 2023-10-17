@@ -1,0 +1,9 @@
+MeshInstance3D
+Node3D
+CollisionShape3D
+StaticBody3D
+Camera3D
+CPUParticles3D
+Decal
+CharacterBody3D
+AnimationPlayer

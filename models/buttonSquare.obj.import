@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bkin4x7dejbqi"
+path="res://.godot/imported/buttonSquare.obj-5a59fa7db71650b0c572f98637c6630e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/buttonSquare.obj-5a59fa7db71650b0c572f98637c6630e.mesh"]
+
+source_file="res://models/buttonSquare.obj"
+dest_files=["res://.godot/imported/buttonSquare.obj-5a59fa7db71650b0c572f98637c6630e.mesh", "res://.godot/imported/buttonSquare.obj-5a59fa7db71650b0c572f98637c6630e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

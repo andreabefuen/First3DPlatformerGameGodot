@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b78gidwgg4ndw"
+path="res://.godot/imported/blockHalf.obj-60da841a388bb07cd03c338ab4894122.mesh"
+
+[deps]
+
+files=["res://.godot/imported/blockHalf.obj-60da841a388bb07cd03c338ab4894122.mesh"]
+
+source_file="res://models/blockHalf.obj"
+dest_files=["res://.godot/imported/blockHalf.obj-60da841a388bb07cd03c338ab4894122.mesh", "res://.godot/imported/blockHalf.obj-60da841a388bb07cd03c338ab4894122.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

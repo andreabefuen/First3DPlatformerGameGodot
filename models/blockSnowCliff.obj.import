@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c1spr2q5fw5o8"
+path="res://.godot/imported/blockSnowCliff.obj-80458f0e156ed636238b5b8bb42ceed2.mesh"
+
+[deps]
+
+files=["res://.godot/imported/blockSnowCliff.obj-80458f0e156ed636238b5b8bb42ceed2.mesh"]
+
+source_file="res://models/blockSnowCliff.obj"
+dest_files=["res://.godot/imported/blockSnowCliff.obj-80458f0e156ed636238b5b8bb42ceed2.mesh", "res://.godot/imported/blockSnowCliff.obj-80458f0e156ed636238b5b8bb42ceed2.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

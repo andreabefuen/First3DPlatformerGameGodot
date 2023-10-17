@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c01gab0hl1flr"
+path="res://.godot/imported/crateStrong.obj-54e8df10f9dc8f08a17fc093cc6eef59.mesh"
+
+[deps]
+
+files=["res://.godot/imported/crateStrong.obj-54e8df10f9dc8f08a17fc093cc6eef59.mesh"]
+
+source_file="res://models/crateStrong.obj"
+dest_files=["res://.godot/imported/crateStrong.obj-54e8df10f9dc8f08a17fc093cc6eef59.mesh", "res://.godot/imported/crateStrong.obj-54e8df10f9dc8f08a17fc093cc6eef59.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

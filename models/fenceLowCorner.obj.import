@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://p0ac0pgx6bt8"
+path="res://.godot/imported/fenceLowCorner.obj-118f62525d49d5094403e3772232f934.mesh"
+
+[deps]
+
+files=["res://.godot/imported/fenceLowCorner.obj-118f62525d49d5094403e3772232f934.mesh"]
+
+source_file="res://models/fenceLowCorner.obj"
+dest_files=["res://.godot/imported/fenceLowCorner.obj-118f62525d49d5094403e3772232f934.mesh", "res://.godot/imported/fenceLowCorner.obj-118f62525d49d5094403e3772232f934.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

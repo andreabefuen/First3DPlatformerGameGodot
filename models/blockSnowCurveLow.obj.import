@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ue8e4o0mkoi"
+path="res://.godot/imported/blockSnowCurveLow.obj-4f0e6ae7464db492a1b92bd9fb8e85c2.mesh"
+
+[deps]
+
+files=["res://.godot/imported/blockSnowCurveLow.obj-4f0e6ae7464db492a1b92bd9fb8e85c2.mesh"]
+
+source_file="res://models/blockSnowCurveLow.obj"
+dest_files=["res://.godot/imported/blockSnowCurveLow.obj-4f0e6ae7464db492a1b92bd9fb8e85c2.mesh", "res://.godot/imported/blockSnowCurveLow.obj-4f0e6ae7464db492a1b92bd9fb8e85c2.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

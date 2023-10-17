@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c13gxfebqw6it"
+path="res://.godot/imported/buttonRound.obj-6f4c7d3d8613bb20bce6d676e2c84866.mesh"
+
+[deps]
+
+files=["res://.godot/imported/buttonRound.obj-6f4c7d3d8613bb20bce6d676e2c84866.mesh"]
+
+source_file="res://models/buttonRound.obj"
+dest_files=["res://.godot/imported/buttonRound.obj-6f4c7d3d8613bb20bce6d676e2c84866.mesh", "res://.godot/imported/buttonRound.obj-6f4c7d3d8613bb20bce6d676e2c84866.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

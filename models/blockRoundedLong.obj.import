@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://hyocup3baetk"
+path="res://.godot/imported/blockRoundedLong.obj-243e2ec2f844bd8b8458b62c7c070fed.mesh"
+
+[deps]
+
+files=["res://.godot/imported/blockRoundedLong.obj-243e2ec2f844bd8b8458b62c7c070fed.mesh"]
+
+source_file="res://models/blockRoundedLong.obj"
+dest_files=["res://.godot/imported/blockRoundedLong.obj-243e2ec2f844bd8b8458b62c7c070fed.mesh", "res://.godot/imported/blockRoundedLong.obj-243e2ec2f844bd8b8458b62c7c070fed.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cpiwuk3pi2x32"
+path="res://.godot/imported/lever.obj-a4d2fe37e9c2d2dff418313ceb380f6b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/lever.obj-a4d2fe37e9c2d2dff418313ceb380f6b.mesh"]
+
+source_file="res://models/lever.obj"
+dest_files=["res://.godot/imported/lever.obj-a4d2fe37e9c2d2dff418313ceb380f6b.mesh", "res://.godot/imported/lever.obj-a4d2fe37e9c2d2dff418313ceb380f6b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

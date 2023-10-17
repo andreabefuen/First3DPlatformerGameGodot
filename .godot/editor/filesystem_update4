@@ -1,0 +1,4 @@
+res://models/Character/SceneOne.tscn
+res://scripts/View.gd
+res://objects/player.tscn
+res://objects/platform.tscn

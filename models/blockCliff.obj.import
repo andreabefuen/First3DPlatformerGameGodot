@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://daths3vb0k2up"
+path="res://.godot/imported/blockCliff.obj-1117b7880d5cbb5e4e898e2387042d0c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/blockCliff.obj-1117b7880d5cbb5e4e898e2387042d0c.mesh"]
+
+source_file="res://models/blockCliff.obj"
+dest_files=["res://.godot/imported/blockCliff.obj-1117b7880d5cbb5e4e898e2387042d0c.mesh", "res://.godot/imported/blockCliff.obj-1117b7880d5cbb5e4e898e2387042d0c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

@@ -1,0 +1,58 @@
+[gd_scene load_steps=10 format=3 uid="uid://dnh1bnx7eom7t"]
+
+[ext_resource type="PackedScene" uid="uid://8opur621m72u" path="res://objects/player.tscn" id="1_8yxfh"]
+[ext_resource type="PackedScene" uid="uid://d1u0f6mtr8qtn" path="res://objects/platform.tscn" id="3_c1mey"]
+[ext_resource type="Script" path="res://scripts/View.gd" id="4_2pnur"]
+[ext_resource type="PackedScene" uid="uid://duoxxeoapwue3" path="res://objects/crate.tscn" id="4_bowhr"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_4k32o"]
+sky_top_color = Color(0.65098, 0.690196, 0.890196, 1)
+sky_horizon_color = Color(0.712745, 0.714799, 0.755799, 1)
+ground_horizon_color = Color(0.712745, 0.714799, 0.755799, 1)
+
+[sub_resource type="Sky" id="Sky_q2ni4"]
+sky_material = SubResource("ProceduralSkyMaterial_4k32o")
+
+[sub_resource type="Environment" id="Environment_imbmj"]
+background_mode = 2
+sky = SubResource("Sky_q2ni4")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_qgx2d"]
+size = Vector2(20, 20)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_c53hw"]
+data = PackedVector3Array(10, 0, 10, -10, 0, 10, 10, 0, -10, -10, 0, 10, -10, 0, -10, 10, 0, -10)
+
+[node name="Main" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_imbmj")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+shadow_enabled = true
+
+[node name="Player" parent="." node_paths=PackedStringArray("view") instance=ExtResource("1_8yxfh")]
+view = NodePath("../View")
+
+[node name="View" type="Node3D" parent="." node_paths=PackedStringArray("target")]
+script = ExtResource("4_2pnur")
+target = NodePath("../Player")
+
+[node name="Camera" type="Camera3D" parent="View"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 10)
+fov = 40.0
+
+[node name="platform" parent="." instance=ExtResource("3_c1mey")]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("PlaneMesh_qgx2d")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_c53hw")
+
+[node name="crate" parent="." instance=ExtResource("4_bowhr")]
